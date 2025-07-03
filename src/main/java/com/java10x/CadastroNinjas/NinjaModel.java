@@ -8,10 +8,10 @@ public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
-    private String nome;
-    private String email;
-    private int idade;
+    long id;
+    String nome;
+    String email;
+    int idade;
 
 
     public NinjaModel() {
